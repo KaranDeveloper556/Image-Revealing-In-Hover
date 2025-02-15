@@ -75,7 +75,7 @@ const ImageRevealInHover = () => {
     <section className="image-reveal-main mx-auto h-screen overflow-hidden relative p-4 sm:p-8 flex justify-center items-center">
       <div
         ref={revealWrapper}
-        className="reveal-wrapper mx-auto relative w-[95%] h-[35rem] max-w-[100rem] max-h-5xl aspect-video overflow-hidden rounded-xl"
+        className="reveal-wrapper mx-auto relative w-[98%] h-[34rem] max-w-[100rem] max-h-5xl aspect-video overflow-hidden rounded-xl"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
